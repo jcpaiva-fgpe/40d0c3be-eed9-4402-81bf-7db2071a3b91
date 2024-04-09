@@ -1,17 +1,15 @@
-CREATE OR REPLACE FUNCTION get_empleados_count(_department_id int)
-	RETURNS int
+CREATE OR REPLACE FUNCTION antiguedad(_first_name VARCHAR(20), _last_name VARCHAR(25))
+	RETURNS integer
 	LANGUAGE plpgsql
 AS $function$
-	DECLARE 
-		contador_empleados int;
+	declare
+		antiguedad integer;
 	BEGIN
-		SELECT COUNT(*)
-		into
-			contador_empleados
-		from
-			employees
-		where
-			DEPARTMENT_ID = _department_id;
-		return contador_empleados;
+		select extract(year from age(CURRENT_DATE, hire_date)) into antiguedad
+		from employees
+		where last_name = _last_name and first_name = _first_name;
+	
+		return antiguedad;
 	END;
 $function$
+;
