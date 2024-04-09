@@ -1,3 +1,24 @@
+<h2>Invocar a una función</h2>
+<div class="exe-text"><p>PostgreSQL le proporciona tres formas de llamar a una función definida por el usuario. No obstante, aquí se explicará la notación posicional, en la que se deben especificar los argumentos en el mismo orden en el que se establecieron los parámetros.</p>
+<p>En el caso de la función get_agentes_count(), la invocaremos de la siguiente forma:</p>
+<div>
+<div class="highlighted-code code-style-2 language-pgsql">
+<div>
+<pre class="  language-pgsql"><code class="  language-pgsql">select get_agentes_count(1, 2);</code></pre>
+</div>
+</div>
+</div>
+<div>
+<div class="highlighted-code code-style-2 language-pgsql">
+<div>
+<pre class="  language-pgsql"><code class="  language-pgsql"> get_agentes_count 
+-------------------
+                 9
+(1 fila)
+</code></pre>
+</div>
+</div>
+</div>
 <h2>Ejercicio</h2>
 <p>Habiendo creado correctamente la función <code>get_empleados_count()</code>, 
 ¿cómo mostrarías la cantidad de empleados que tienen asociado el <code>department_id</code> 30 y 90?</p>
