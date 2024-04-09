@@ -1,3 +1,22 @@
-SELECT department_id, get_empleados_count(department_id) as n_empleados from EMPLOYEES E
-group by DEPARTMENT_ID
-order by n_empleados desc;
+CREATE OR REPLACE FUNCTION get_empleados_count(_department_id int)
+	RETURNS int
+	LANGUAGE plpgsql
+AS $function$
+	DECLARE 
+		contador_empleados int;
+	BEGIN
+		if _department_id is NULL then
+	        contador_empleados := null;
+	    else
+			SELECT COUNT(*)
+			into
+				contador_empleados
+			from
+				employees
+			where
+				DEPARTMENT_ID = _department_id;
+	    end if;
+		return contador_empleados;
+	END;
+$function$
+;
