@@ -1,3 +1,30 @@
+<h2>Invocar a una función</h2>
+<div class="exe-text"><p>Como parámetros,
+    también podemos utilizar los valores de las columnas de una tabla</p>
+<p>Por ejemplo, en el caso de la función <code>get_agentes_count()</code>, 
+la podremos invocar de la siguiente forma:</p>
+<div>
+<div class="highlighted-code code-style-2 language-pgsql">
+<div>
+<pre class="  language-pgsql"><code class="  language-pgsql">select categoria, get_agentes_count(categoria, categoria)
+    from agentes
+group by categoria;</code></pre>
+</div>
+</div>
+</div>
+<div>
+<div class="highlighted-code code-style-2 language-pgsql">
+<div>
+<pre class="  language-pgsql"><code class="  language-pgsql">
+categoria|get_agentes_count|
+---------+-----------------+
+        1|                6|
+        2|                3|
+        0|               30|
+</code></pre>
+</div>
+</div>
+</div>
 <h2>Ejercicio</h2>
 <p>Habiendo creado correctamente la función <code>get_empleados_count()</code>, 
 ¿cómo mostrarías el número de empleados asociado a cada <code>department_id</code>?</p>
