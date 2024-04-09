@@ -37,7 +37,7 @@ $function$
     <div>
         <div class="highlighted-code code-style-2 language-pgsql">
             <div>
-                <pre class="  language-pgsql"><code class="  language-pgsql">create function get_agentes_count(cat_desde int, cat_hasta int)
+                <pre class="  language-pgsql"><code class="  language-pgsql">create or replace function get_agentes_count(cat_desde numeric, cat_hasta numeric)
 returns int
 language plpgsql
 as
