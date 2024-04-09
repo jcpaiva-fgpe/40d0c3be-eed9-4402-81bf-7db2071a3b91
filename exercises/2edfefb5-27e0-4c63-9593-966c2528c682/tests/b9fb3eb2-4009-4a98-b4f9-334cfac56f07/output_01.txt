@@ -1,3 +1,7 @@
-get_empleados_count|
--------------------+
-                  5|
+first_name|last_name|antiguedad|
+----------+---------+----------+
+David     |Austin   |        26|
+Bruce     |Ernst    |        32|
+Alexander |Hunold   |        34|
+Diana     |Lorentz  |        25|
+Valli     |Pataballa|        26|
