@@ -1,3 +1,29 @@
-get_empleados_count|
--------------------+
-                  5|
+department_name     |get_subordinados_departamento|
+--------------------+-----------------------------+
+Accounting          |1                            |
+Administration      |Solo el jefe                 |
+Benefits            |Sin empleados                |
+Construction        |Sin empleados                |
+Contracting         |Sin empleados                |
+Control And Credit  |Sin empleados                |
+Corporate Tax       |Sin empleados                |
+Executive           |2                            |
+Finance             |5                            |
+Government Sales    |Sin empleados                |
+Human Resources     |Solo el jefe                 |
+IT                  |4                            |
+IT Helpdesk         |Sin empleados                |
+IT Support          |Sin empleados                |
+Manufacturing       |Sin empleados                |
+Marketing           |1                            |
+NOC                 |Sin empleados                |
+Operations          |Sin empleados                |
+Payroll             |Sin empleados                |
+Public Relations    |Solo el jefe                 |
+Purchasing          |5                            |
+Recruiting          |Sin empleados                |
+Retail Sales        |Sin empleados                |
+Sales               |33                           |
+Shareholder Services|Sin empleados                |
+Shipping            |44                           |
+Treasury            |Sin empleados                |
