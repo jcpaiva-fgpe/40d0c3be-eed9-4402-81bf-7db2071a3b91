@@ -1,1 +1,1 @@
-{"id":"2649a3fb-6951-4447-bfe6-35511ac30831","arguments":[],"weight":"0","visible":true,"input":"input_01.sql","output":"output_01.txt","timeout":0,"feedback":[]}
+{"id":"2649a3fb-6951-4447-bfe6-35511ac30831","arguments":[],"weight":"0","visible":"true","input":"input_01.sql","output":"output_01.txt","timeout":"-1","feedback":[]}
