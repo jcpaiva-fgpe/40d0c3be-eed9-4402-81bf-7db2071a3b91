@@ -1,0 +1,5 @@
+INSERT INTO EMPLE VALUES (9000, 'MARTINEZ', 'EMPLEADO', 7566, '03/12/1991', 3000, NULL, 20);
+INSERT INTO EMPLE VALUES (9001, 'GOMEZ', 'EMPLEADO', 7782, '23/01/1992', 1690, NULL, 10);
+
+delete from EMPLE where emp_no = 9000;
+delete from emple where emp_no = 9001;
