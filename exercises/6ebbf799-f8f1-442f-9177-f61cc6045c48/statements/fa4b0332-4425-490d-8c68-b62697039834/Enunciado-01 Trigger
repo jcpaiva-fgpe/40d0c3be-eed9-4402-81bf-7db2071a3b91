@@ -1,0 +1,5 @@
+<p>Escribe un disparador de la BD que permita auditar las operaciones de inserción o borrado de datos que se realicen en la tabla EMPLE según las siguientes 
+especificaciones:</p>
+<p>Se creará la tabla auditaremple con la columna <b>operacion</b> VARCHAR(200).</p>
+<p>Cuando se produzca cualquier manipulación, se insertará una fila en dicha tabla que contendrá: fecha y hora, número de empleado, apellido y la operación de 
+actualización, inserción o borrado.</p>
