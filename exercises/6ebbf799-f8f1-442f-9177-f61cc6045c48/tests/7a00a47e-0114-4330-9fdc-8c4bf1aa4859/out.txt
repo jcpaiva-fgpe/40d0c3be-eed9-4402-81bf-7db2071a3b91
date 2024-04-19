@@ -1,0 +1,6 @@
+operacion                               |
+----------------------------------------+
+19/04/24*00:00*9000*MARTINEZ* INSERCIÓN |
+19/04/24*00:00*9001*GOMEZ* INSERCIÓN    |
+19/04/24*00:00*9000*MARTINEZ* BORRADO   |
+19/04/24*00:00*9001*GOMEZ* BORRADO      |
