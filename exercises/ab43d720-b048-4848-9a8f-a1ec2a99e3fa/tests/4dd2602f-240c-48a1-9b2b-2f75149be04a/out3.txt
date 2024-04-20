@@ -1,0 +1,7 @@
+dept_no|dnombre      |loc      |
+-------+-------------+---------+
+     10|CONTABILIDAD |SEVILLA  |
+     20|INVESTIGACION|MADRID   |
+     30|VENTAS       |BARCELONA|
+     40|PRODUCCION   |BILBAO   |
+     50|DIRECCION    |MURCIA   |
