@@ -1,0 +1,2 @@
+SQL Error [P0001]: ERROR: Ya existe un departamento con ese nombre
+  Where: función PL/pgSQL gestionar_dept() en la línea 13 en RAISE
