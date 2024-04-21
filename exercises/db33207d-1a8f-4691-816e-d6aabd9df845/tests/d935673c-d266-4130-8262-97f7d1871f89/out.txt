@@ -1,0 +1,2 @@
+SQL Error [P0001]: ERROR: No se puede crear una localización sin provincia.
+  Where: función PL/pgSQL comprueba_provincia() en la línea 4 en RAISE
