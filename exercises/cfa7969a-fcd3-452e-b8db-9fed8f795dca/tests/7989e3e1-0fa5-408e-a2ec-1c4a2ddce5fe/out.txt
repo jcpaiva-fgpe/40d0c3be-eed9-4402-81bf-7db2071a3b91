@@ -1,0 +1,2 @@
+SQL Error [P0001]: ERROR: No se pueden eliminar empleados que entraron antes de 1995
+  Where: función PL/pgSQL empleados_antiguedad_1990() en la línea 10 en RAISE
