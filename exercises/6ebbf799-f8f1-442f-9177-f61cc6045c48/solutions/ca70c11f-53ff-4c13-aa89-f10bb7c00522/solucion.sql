@@ -1,5 +1,3 @@
-CREATE TABLE auditaremple(operacion VARCHAR(200));
-
 CREATE OR REPLACE FUNCTION auditar_emp()
 RETURNS TRIGGER
 LANGUAGE PLPGSQL
@@ -17,7 +15,7 @@ BEGIN
 	END IF;
 	RETURN NEW;
 END;
-$function$
+$function$;
 
 CREATE OR REPLACE TRIGGER auditar_act_emp
 	BEFORE INSERT OR DELETE
