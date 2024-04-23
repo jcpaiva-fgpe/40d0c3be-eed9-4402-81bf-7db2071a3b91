@@ -10,7 +10,8 @@ BEGIN
 	IF TG_OP = 'DELETE' THEN 
 		UPDATE EMPLE SET dept_no = -1 where dept_no = OLD.dept_no;
 	ELSIF TG_OP = 'INSERT' THEN
-		SELECT count(*) INTO existe_dept_nombre
+		SELECT count(*) 
+        INTO existe_dept_nombre
 		from depart
 		WHERE dnombre = NEW.dnombre;
 		IF existe_dept_nombre > 0 THEN
