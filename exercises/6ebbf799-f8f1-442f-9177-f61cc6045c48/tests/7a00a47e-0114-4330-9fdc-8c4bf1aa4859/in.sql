@@ -4,4 +4,4 @@ INSERT INTO EMPLE VALUES (9001, 'GOMEZ', 'EMPLEADO', 7782, '1992-01-23', 1690, N
 delete from EMPLE where emp_no = 9000;
 delete from emple where emp_no = 9001;
 
-select * from auditaremple;
+select * from auditaremple ORDER BY operacion;
