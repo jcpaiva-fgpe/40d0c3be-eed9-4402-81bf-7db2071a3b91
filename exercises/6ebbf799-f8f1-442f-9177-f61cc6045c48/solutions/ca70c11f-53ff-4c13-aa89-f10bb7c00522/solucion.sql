@@ -10,7 +10,7 @@ BEGIN
 			old.emp_no || '*' || old.apellido || '* BORRADO ');
 	ELSIF TG_OP = 'INSERT' THEN
 		INSERT INTO auditaremple
-		   VALUES (TO_CHAR(SYSDATE, 'DD/MM/YY*HH24:MI*') || 
+		   VALUES (TO_CHAR(CURRENT_DATE, 'DD/MM/YY*HH24:MI*') || 
 			new.emp_no || '*' || new.apellido || '* INSERCIÓN ');
 	END IF;
 	RETURN NEW;
