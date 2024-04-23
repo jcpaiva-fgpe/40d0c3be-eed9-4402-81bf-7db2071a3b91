@@ -11,14 +11,15 @@ BEGIN
 	UPDATE EMPLE SET dept_no = -1 where dept_no = OLD.dept_no;
 	ELSIF TG_OP = 'INSERT' THEN
 	SELECT count(*) INTO existe_dept_nombre
+	from depart
 	WHERE dnombre = NEW.dnombre;
 		IF existe_dept_nombre > 0 THEN
 			raise 'Ya existe un departamento con ese nombre';
 		ELSE
 			SELECT MAX(dept_no)+10
-INTO nuevo_dept_id 
-FROM DEPARTAMENTOS;
-NEW.dept_no := nuevo_dept_id;
+			INTO nuevo_dept_id 
+			FROM DEPART;
+			NEW.dept_no := nuevo_dept_id;
 		END IF;
 	END IF;
 	RETURN NEW;
