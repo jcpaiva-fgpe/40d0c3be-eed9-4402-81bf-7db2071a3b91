@@ -16,4 +16,4 @@ CREATE TRIGGER insertar_nuevo_historico
 after UPDATE
 ON job_history
 FOR EACH ROW
-EXECUTE PROCEDURE nuevo_historico();
+EXECUTE FUNCTION nuevo_historico();
