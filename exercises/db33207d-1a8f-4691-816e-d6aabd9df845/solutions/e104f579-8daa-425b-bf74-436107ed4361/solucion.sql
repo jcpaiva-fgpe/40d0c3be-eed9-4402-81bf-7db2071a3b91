@@ -4,10 +4,11 @@ LANGUAGE plpgsql
 AS $$
 BEGIN
    if new.state_province is null then
-	raise 'No se puede crear una localización sin provincia.';
+	raise notice 'No se puede crear una localización sin provincia.';
+    return null;
+   else
+    return new;
    end if;
-  
-  return new;
 END;
 $$;
 
