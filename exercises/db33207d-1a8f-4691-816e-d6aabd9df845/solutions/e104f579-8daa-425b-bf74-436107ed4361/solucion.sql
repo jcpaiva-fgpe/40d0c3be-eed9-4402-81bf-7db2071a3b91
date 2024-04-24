@@ -16,4 +16,4 @@ CREATE TRIGGER comprobar_provincia_localizacion
 before INSERT
 ON locations
 FOR EACH ROW
-EXECUTE PROCEDURE comprueba_provincia();
+EXECUTE FUNCTION comprueba_provincia();
