@@ -12,4 +12,4 @@ CREATE TRIGGER nuevo_empleado
 BEFORE INSERT
 ON employees
 FOR EACH ROW
-EXECUTE PROCEDURE agregar_dominio_email_empleado();
+EXECUTE FUNCTION agregar_dominio_email_empleado();
