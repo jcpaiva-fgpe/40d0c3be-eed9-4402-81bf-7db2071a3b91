@@ -10,10 +10,11 @@ BEGIN
    from employees where employee_id = old.employee_id;
   
    if anyo_empleado < 1995 then
-   	raise 'No se pueden eliminar empleados que entraron antes de 1995';  
+   	raise notice 'No se pueden eliminar empleados que entraron antes de 1995';  
+    return null;
+   else
+    return old;
    end if;
-  
-   return old;
 END;
 $$;
 
