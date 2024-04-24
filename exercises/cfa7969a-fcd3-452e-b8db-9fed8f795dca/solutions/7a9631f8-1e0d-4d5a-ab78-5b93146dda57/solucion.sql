@@ -1,4 +1,4 @@
-CREATE or replace FUNCTION empleados_antiguedad_1995()
+CREATE or replace FUNCTION empleados_antiguedad()
 RETURNS TRIGGER
 LANGUAGE plpgsql
 AS $$
@@ -22,4 +22,4 @@ CREATE TRIGGER eliminar_empleado
 BEFORE DELETE
 ON employees
 FOR EACH ROW
-EXECUTE PROCEDURE empleados_antiguedad_1995();
+EXECUTE FUNCTION empleados_antiguedad();
