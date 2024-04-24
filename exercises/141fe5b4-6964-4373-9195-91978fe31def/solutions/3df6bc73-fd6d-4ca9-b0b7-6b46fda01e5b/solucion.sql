@@ -21,4 +21,4 @@ create or replace TRIGGER comprobar_departamento_historico
 before INSERT
 ON job_history
 FOR EACH ROW
-EXECUTE PROCEDURE comprueba_departamento();
+EXECUTE FUNCTION comprueba_departamento();
