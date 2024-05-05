@@ -1,0 +1,4 @@
+nombre_torneo                              |nombre_jugador|duracion_partida|
+-------------------------------------------+--------------+----------------+
+Torneo Internacional World of Warcraft 2024|Juan Ramón    |               5|
+Torneo Nacional Fortnite                   |Patricia      |               5|
