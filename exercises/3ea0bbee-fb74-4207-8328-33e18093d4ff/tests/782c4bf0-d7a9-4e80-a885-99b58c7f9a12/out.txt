@@ -1,0 +1,8 @@
+jugador_id|puntos_experiencia|nombre      |
+----------+------------------+------------+
+         1|              1000|Cadete      |
+         2|              1600|Sargento    |
+         3|              3999|Caballero   |
+         4|             31000|Leyenda     |
+         5|             12512|Experto     |
+         6|                 1|Principiante|
