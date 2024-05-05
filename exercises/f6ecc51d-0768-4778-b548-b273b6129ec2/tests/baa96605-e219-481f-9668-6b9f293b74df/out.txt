@@ -1,0 +1,10 @@
+torneo_id|juego_id|nombre                   |fecha_comienzo|fecha_fin |torneo_id|jugador_id|
+---------+--------+-------------------------+--------------+----------+---------+----------+
+        3|       4|Torneo Nacional Witcher  |    2024-05-05|2024-05-31|        3|         1|
+        3|       4|Torneo Nacional Witcher  |    2024-05-05|2024-05-31|        3|         2|
+        3|       4|Torneo Nacional Witcher  |    2024-05-05|2024-05-31|        3|         3|
+        3|       4|Torneo Nacional Witcher  |    2024-05-05|2024-05-31|        3|         4|
+        4|       6|Torneo Mario Bros Europeo|    2024-06-15|2024-07-01|        4|         3|
+        4|       6|Torneo Mario Bros Europeo|    2024-06-15|2024-07-01|        4|         4|
+        4|       6|Torneo Mario Bros Europeo|    2024-06-15|2024-07-01|        4|         5|
+        4|       6|Torneo Mario Bros Europeo|    2024-06-15|2024-07-01|        4|         6|
