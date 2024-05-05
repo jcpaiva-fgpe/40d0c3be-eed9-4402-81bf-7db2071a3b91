@@ -1,0 +1,4 @@
+torneo_id|juego_id|nombre                                     |fecha_comienzo|fecha_fin |
+---------+--------+-------------------------------------------+--------------+----------+
+        1|       1|Torneo Nacional Fortnite                   |    2023-12-01|2023-12-31|
+        2|       2|Torneo Internacional World of Warcraft 2024|    2024-03-01|2024-03-19|
