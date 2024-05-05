@@ -1,0 +1,4 @@
+nombre_jugador|experiencia_jugador|nombre_nivel|cantidad_torneos|
+--------------+-------------------+------------+----------------+
+Juan Ramón    |Profesional        |Sargento    |               2|
+Patricia      |Experto            |Épico       |               2|
