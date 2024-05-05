@@ -1,0 +1,11 @@
+jugador_id|nombre    |experiencia|fecha_correcta|puntos_experiencia|nombre_nivel|plataforma  |
+----------+----------+-----------+--------------+------------------+------------+------------+
+         1|Juan Ramón|Profesional|             0|                 0|Sargento    |XBOX        |
+         2|Andrés    |Novato     |             0|                 0|Rookie      |PS4         |
+         3|Francisco |Experto    |             0|                 0|Comandante  |PC          |
+         4|Paula     |Intermedio |             0|                 0|Sargento    |PSP         |
+         5|Patricia  |Experto    |             0|                 0|Épico       |Nintendo 3DS|
+         6|Miguel    |Novato     |             0|                 0|Maestro     |PSP         |
+         7|Andrew    |Experto    |             1|              1500|Sargento    |PC          |
+         8|Yasmina   |Intermedio |             1|               999|Cadete      |XBOX        |
+         9|David     |Leyenda    |             1|             25000|Épico       |PS5         |
