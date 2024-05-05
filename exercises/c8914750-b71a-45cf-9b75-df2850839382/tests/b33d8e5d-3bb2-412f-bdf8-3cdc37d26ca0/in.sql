@@ -1,0 +1,1 @@
+select cuantos_torneos('Paula') as torneos_paula, cuantos_torneos('Juan Ramón') as torneos_jramon, cuantos_torneos('Andrew') as torneos_andrew;
