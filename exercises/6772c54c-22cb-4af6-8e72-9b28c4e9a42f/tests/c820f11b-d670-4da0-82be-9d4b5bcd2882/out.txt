@@ -1,0 +1,8 @@
+jugador_id|obtener_datos_jugador|
+----------+---------------------+
+         1|The Witcher, 3       |
+         2|Fortnite, 2          |
+         3|Mario Bros, 0        |
+         4|World of Warcraft, 2 |
+         5|Pokémon Púrpura, 3   |
+         6|Assasins Creed, 0    |
