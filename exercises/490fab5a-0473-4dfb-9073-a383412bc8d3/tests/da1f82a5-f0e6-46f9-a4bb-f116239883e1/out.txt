@@ -1,7 +1,0 @@
-identificador|jugador_nombre    |plataforma_preferida|nivel  |juegos_jugador |operacion    |fecha                  |usuario|
--------------+------------------+--------------------+-------+---------------+-------------+-----------------------+-------+
-            1|Andrew            |PC                  |       |               |INSERCION    |2024-05-04 19:03:43.007|alumno |
-            2|Andrew            |PC                  |Leyenda|               |ACTUALIZACION|2024-05-04 19:03:43.007|alumno |
-            3|Andrew Nightingale|PC                  |       |               |ELIMINACION  |2024-05-04 19:03:43.007|alumno |
-            4|Patricia          |Nintendo 3DS        |Cadete |Pokémon Púrpura|ACTUALIZACION|2024-05-04 19:03:43.007|alumno |
-            5|Miguel            |PSP                 |Maestro|Assasins Creed |ACTUALIZACION|2024-05-04 19:03:43.007|alumno |
