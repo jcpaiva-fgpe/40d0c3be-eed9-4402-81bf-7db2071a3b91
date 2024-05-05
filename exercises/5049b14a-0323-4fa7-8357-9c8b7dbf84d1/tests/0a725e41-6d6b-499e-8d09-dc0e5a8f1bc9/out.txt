@@ -1,0 +1,8 @@
+jugador_id|nombre    |plataforma_preferida|fecha_alta             |experiencia|torneos|mejor_clasificacion|
+----------+----------+--------------------+-----------------------+-----------+-------+-------------------+
+         1|Juan Ramón|                   2|2024-01-01 10:00:00.000|Profesional|      2|                  1|
+         2|Andrés    |                   3|2024-03-01 08:50:00.000|Novato     |      2|                  2|
+         3|Francisco |                   1|2022-01-01 16:00:05.000|Experto    |      2|                  3|
+         4|Paula     |                   5|2023-12-01 00:00:00.000|Intermedio |      0|                   |
+         5|Patricia  |                   7|2023-06-15 00:00:00.000|Experto    |      2|                  1|
+         6|Miguel    |                   5|2023-10-11 00:00:00.000|Novato     |      1|                  2|
