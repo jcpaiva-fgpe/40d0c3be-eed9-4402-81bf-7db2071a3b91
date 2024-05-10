@@ -1,0 +1,34 @@
+<p>Crea un rutina que, incorporando un <strong>cursor</strong>, genere las tarjetas de embarque de un vuelo cuyo id_vuelo se enviará por parámetro.</p>
+<p>Lo que debe hacer la rutina es:</p>
+    <ul>
+        <li>crear un cursor que recorra todos los registros de la tabla <code>billete_vuelos</code> que tengan el mismo <code>id_vuelo</code> que el que se envía como parámetro.</li>
+        <li>Por cada uno de los registros del cursor, añadirá una fila en la tabla <code>tarjetas_embarque</code>, que tendrá los siguientes valores:
+            <ul>
+                <li><strong>id_billete:</strong> el mismo que el que tenga el registro actual del cursor.</li>
+                <li><strong>id_vuelo:</strong> el enviado a la rutina como parámetro.</li>
+                <li><strong>no_embarque:</strong> será un valor que se vaya incrementando en la propia rutina, comenzando por el valor <em>1</em></li>
+                <li><strong>no_asiento:</strong> el valor devuelto por la rutina <code>primerAsientoLibre()</code> 
+                a la que se le pasa el <code>id_vuelo</code> enviado a la rutina como parámetro.</li>
+            </ul>
+        </li>
+    </ul>
+<p>Por ejemplo, si se ejecutaran los siguientes comandos</p>
+<pre>
+    begin;
+        select * from tarjetas_embarque te ;
+        call generaTarjetasEmbarque(1496);
+        select * from tarjetas_embarque te ;
+    rollback;
+</pre>
+<p>, el resultado de la primera sentencia <code>SELECT</code> sería</p>
+<pre>
+id_billete|id_vuelo|no_embarque|no_asiento|
+----------+--------+-----------+----------+
+</pre>
+<p>mientras que la del segundo <code>SELECT</code> sería:</p>
+<pre>
+id_billete   |id_vuelo|no_embarque|no_asiento|
+-------------+--------+-----------+----------+
+0005433152411|    1496|          1|10B       |
+0005433152416|    1496|          2|10C       |
+</pre>
