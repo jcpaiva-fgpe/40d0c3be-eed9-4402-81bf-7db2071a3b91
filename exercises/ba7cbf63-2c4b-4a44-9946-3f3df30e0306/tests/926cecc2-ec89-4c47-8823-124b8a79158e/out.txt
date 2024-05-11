@@ -1,0 +1,5 @@
+torneo|obtener_estadisticas_torneo                                                                                                                                   |
+------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+     1|Torneo: Torneo Nacional Fortnite; Duración torneo:28; Jugadores: Andrés,Francisco,Miguel,Patricia*,; Partidas: 4; Duración partidas: 12                       |
+     2|Torneo: Torneo Internacional World of Warcraft 2024; Duración torneo:18; Jugadores: Patricia,Francisco,Andrés,Juan Ramón*,; Partidas: 4; Duración partidas: 16|
+     3|Torneo: Torneo Pokémon Púrpura 2024; Duración torneo:16; Jugadores: Andrés,Andrés,Andrés,Andrés,Andrés,Andrés*,; Partidas: 6; Duración partidas: 13           |
