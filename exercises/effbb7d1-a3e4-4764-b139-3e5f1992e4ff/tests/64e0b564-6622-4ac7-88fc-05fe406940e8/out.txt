@@ -1,0 +1,11 @@
+torneo_id|jugador_id|nombre_jugador|fecha_asistencia|codigo_entrada|
+---------+----------+--------------+----------------+--------------+
+        1|         1|Juan Ramón    |      2023-12-01|TJ101         |
+        1|         2|Andrés        |      2023-12-01|TA201         |
+        1|         3|Francisco     |      2023-12-01|TF301         |
+        1|         5|Patricia      |      2023-12-01|TP501         |
+        1|         6|Miguel        |      2023-12-01|TM601         |
+        2|         1|Juan Ramón    |      2024-03-01|TJ101         |
+        2|         2|Andrés        |      2024-03-01|TA201         |
+        2|         3|Francisco     |      2024-03-01|TF301         |
+        2|         5|Patricia      |      2024-03-01|TP501         |
