@@ -1,0 +1,3 @@
+torneo_1                      |torneo_2                      |
+------------------------------+------------------------------+
+Duración: 12, Sobreduración: 0|Duración: 12, Sobreduración: 4|
