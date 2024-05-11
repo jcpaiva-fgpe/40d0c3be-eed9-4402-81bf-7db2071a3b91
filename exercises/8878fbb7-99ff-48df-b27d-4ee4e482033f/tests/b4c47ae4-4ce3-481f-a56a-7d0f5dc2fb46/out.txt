@@ -1,0 +1,8 @@
+obtener_juegos_jugados_juntos                                                           |
+----------------------------------------------------------------------------------------+
+Jugador: Andrés, Sin solapamientos                                                      |
+Jugador: Francisco, Sin solapamientos                                                   |
+Jugador: Juan Ramón, Fechas: 2024-05-03 18:10:55-2024-05-03 21:55:33, Solapamientos: 1, |
+Jugador: Miguel, Sin solapamientos                                                      |
+Jugador: Patricia, Fechas: 2024-05-03 19:07:10-2024-05-03 21:53:47, Solapamientos: 1,   |
+Jugador: Paula, Sin solapamientos                                                       |
