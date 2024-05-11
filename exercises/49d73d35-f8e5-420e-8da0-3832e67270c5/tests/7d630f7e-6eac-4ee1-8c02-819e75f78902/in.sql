@@ -1,0 +1,1 @@
+select obtener_horas_jugando(1) as horas_1, obtener_horas_jugando(4) as horas_4;
