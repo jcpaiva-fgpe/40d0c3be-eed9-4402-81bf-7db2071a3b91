@@ -1,0 +1,18 @@
+<p>Añade un campo a la tabla de juegos que sea el precio del mismo, llamado "precio", que indicará lo vale comprar dicho juego en €, 
+	y otro a las partidas que indicará el coste por horas de la partida en €, también llamado "precio".</p> 
+	<p>Teniendo en cuenta que el coste de cada uno de los juegos es:</p>
+	<ul>
+		<li> - Fortinte: comprar: 49,99€, jugar: 3,99€/h.</li>
+		<li> - World of Warcraft: comprar: 29,99€, jugar: 8,99€/h.</li>
+		<li> - Assasins Creed: comprar: 59,99€, jugar: 4,50€/h.</li>
+		<li> - The Witcher: comprar: 54,99€, jugar: 6,00€/h.</li>
+		<li> - Pokémon Púrpura: comprar: 61,99€, jugar: 2,99€/h.</li>
+		<li> - Mario Bros: comprar: gratis, jugar: 2,50€/h.</li>
+	</ul>
+	<p></p>
+	<p>Actualiza los valores en la base de datos. A una empresa internacional le interesa comprar todas las plataformas. </p>
+	<p>Para ello, crea una función con un cursor que, pasando un identificador de plataforma como parámetro, 
+	calcule los precios correspondientes a cada uno de los registros, y nos indique el nombre de la plataforma 
+	y el precio que ha conseguido dicha plataforma, todo en un sólo campo.</p>
+	<p><strong>¡OJO!</strong> Necesitamos saber las horas EXACTAS, no nos vale que, si ha jugado 30 minutos, nos devuelva 0 horas, tendría que devolver 0.5 horas.</p>
+	<p><strong>¡OJO!</strong> Los resultados de importe tienen que tener sólamente 2 decimales, al tratarse de importes.</p>
