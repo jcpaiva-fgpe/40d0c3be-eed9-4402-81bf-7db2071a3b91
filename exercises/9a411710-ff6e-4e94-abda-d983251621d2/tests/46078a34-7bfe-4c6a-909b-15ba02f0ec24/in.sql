@@ -1,0 +1,1 @@
+select obtener_premios_torneos();
