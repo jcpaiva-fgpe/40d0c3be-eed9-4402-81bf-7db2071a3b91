@@ -1,0 +1,3 @@
+obtener_premios_torneos                                                                                                                                                                                 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Torneo: Torneo Nacional Fortnite, Premios: Patricia: 500€, Miguel: 200€, Francisco: 100€;Torneo: Torneo Internacional World of Warcraft 2024, Premios: Juan Ramón: 1000€, Andrés: 300€, Francisco: 100€;|
