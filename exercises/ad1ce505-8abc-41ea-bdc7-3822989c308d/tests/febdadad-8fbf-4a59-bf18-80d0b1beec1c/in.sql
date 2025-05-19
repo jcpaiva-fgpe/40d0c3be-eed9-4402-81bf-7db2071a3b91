@@ -11,5 +11,5 @@ update jugadores set plataforma_preferida = 2 where jugador_id = 5;
 update jugadores set nombre = 'Miguel Ángel', fecha_alta = current_timestamp, experiencia = 'Rookie'
 where jugador_id = 6;
 
-select identificador, jugador_nombre, plataforma_preferida, nivel, juegos_jugador, operacion, fecha from auditar_jugador
+select identificador, jugador_nombre, plataforma_preferida, nivel, juegos_jugador, operacion, date_trunc('minute', fecha) from auditar_jugador
 order by identificador;
