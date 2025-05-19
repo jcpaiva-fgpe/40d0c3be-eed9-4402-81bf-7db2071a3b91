@@ -1,1 +1,1 @@
-{"id":"febdadad-8fbf-4a59-bf18-80d0b1beec1c","arguments":[],"weight":"0","visible":true,"input":"in.sql","output":"out.txt","timeout":0,"feedback":[]}
+{"id":"febdadad-8fbf-4a59-bf18-80d0b1beec1c","arguments":[],"weight":"0","visible":"true","input":"in.sql","output":"out.txt","timeout":"0","feedback":[]}
