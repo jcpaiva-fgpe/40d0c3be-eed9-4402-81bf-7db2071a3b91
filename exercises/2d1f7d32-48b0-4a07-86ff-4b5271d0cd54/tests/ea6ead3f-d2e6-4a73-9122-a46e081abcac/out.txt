@@ -1,9 +1,9 @@
 id_plataforma|obtener_venta_plataforma|
 -------------+------------------------+
-            1|PC: 80.25€              |
+            1|PC: 207.15€             |
             2|XBOX: 0.00€             |
-            3|PS4: 60.10€             |
+            3|PS4: 77.72€             |
             4|PS5: 54.99€             |
             5|PSP: 0.00€              |
             6|Nintendo Switch: 61.99€ |
-            7|Nintendo 3DS: 0.05€     |
+            7|Nintendo 3DS: 8.67€     |
