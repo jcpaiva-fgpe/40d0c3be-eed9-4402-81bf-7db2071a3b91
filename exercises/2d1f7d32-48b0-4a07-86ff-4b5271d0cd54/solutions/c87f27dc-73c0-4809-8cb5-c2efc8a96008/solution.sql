@@ -48,7 +48,7 @@ as $$
 			fetch cur_partidas into fila_partida;
 			exit when not found;
 		
-			importe_total = importe_total + (fila_partida.precio_hora * extract(second from age(fila_partida.fin, fila_partida.comienzo)) / 3600);
+			importe_total = importe_total + (fila_partida.precio_hora * extract(epoch from age(fila_partida.fin, fila_partida.comienzo)) / 3600);
 		end loop;
 		close cur_partidas;
 	
