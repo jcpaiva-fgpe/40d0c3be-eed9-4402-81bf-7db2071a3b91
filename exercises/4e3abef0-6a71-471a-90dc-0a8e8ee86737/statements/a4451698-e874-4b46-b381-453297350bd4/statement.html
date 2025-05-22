@@ -1,3 +1,42 @@
-<p>Un torneo no puede tener más de 6 participantes. </p><p>Además, tiene que haber una partida para todos los participantes.</p>
-	<p>Crea algo para que, a la hora de actualizar un torneo, no se actualicen sus datos si no se cumplen los requisitos mencionados 
-	anteriormente.</p>
+<p>Para poder actualizar un torneo, necesitamos que se cumplan dos restricciones:</p>
+<ul style="margin-left: 2em; list-style-type: circle">
+    <li>El torneo que se estáá actualizando no puede tener más de 6 participantes. </li>
+    <li>Todos los participantes de un torneo (<code>torneos_participantes</code>) deben estar asociados a las partidas de ese torneo (<code>torneos_partidas</code>).
+     Esta restricción se tiene que cumplir para todos los torneos y no solo para el que se está actualizando.</li>
+</ul>
+<p>Crea una rutina para que, a la hora de actualizar un torneo, no se actualicen sus datos si no se cumplen los requisitos mencionados anteriormente.</p>
+<p>Por ejemplo, la siguiente sería una posible secuencia de modificacióón de la base de datos.</p>
+<pre style="margin-left: 2em;"><code>begin;
+
+update torneos set fecha_fin = '2023-12-30' where torneo_id = 1;
+-- No se actualiza porque el participante 1 no está en ninguna partida
+
+update torneos set fecha_fin = '2024-03-20' where torneo_id = 2;
+-- No se actualiza porque el participante 1 no está en ninguna partida
+
+insert into torneos_participantes(torneo_id, jugador_id)
+values(1, 4);
+
+insert into torneos_partidas(torneo_id, ganador, juego_id, comienzo, fin, clasificacion) 
+values(1, 1, 1, '2023-12-01 14:10:00', '2023-12-01 15:15:00', 5);
+
+update torneos set fecha_fin = '2023-01-05' where torneo_id = 1;
+-- No se actualiza porque el participante 4 no está en ninguna partida
+
+insert into torneos_partidas(torneo_id, ganador, juego_id, comienzo, fin, clasificacion) 
+values(1, 4, 1, '2023-12-03 17:15:00', '2023-12-03 18:09:44', 6);
+
+update torneos set fecha_fin = '2023-12-31' where torneo_id = 1;
+-- Sí se actualiza por cumplir las dos condiciones
+
+insert into jugadores(jugador_id, nombre, plataforma_preferida, fecha_alta, experiencia)
+values(7, 'Andrew', 1, current_timestamp, 'Leyenda');
+
+insert into torneos_participantes(torneo_id, jugador_id)
+values(1, 7);
+
+update torneos set fecha_fin = '2024-01-01' where torneo_id = 1;
+-- No se actualiza superar el número de participantes permitido
+
+rollback;
+</code></pre>
