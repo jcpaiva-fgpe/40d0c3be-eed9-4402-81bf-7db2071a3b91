@@ -9,7 +9,8 @@ as $$
 		cur_juegos cursor(id_jugador int)
 		for select p.comienzo, p.fin, j.nombre from partidas p
 			join juegos j on (j.juego_id = p.juego_id)
-			where p.jugador_id = id_jugador;
+			where p.jugador_id = id_jugador
+            order by j.juego_id;
 	begin 
 		open cur_juegos(_id_jugador);
 		loop
